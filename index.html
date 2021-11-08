@@ -21,8 +21,6 @@
 			<h2>Potential Field</h2>
 			<video controls="controls">
 				<source src="potential-field.MOV" type="video/mp4">
-				<source src="potential-field.MOV" type="video/ogg">
-				Your browser does not support the HTML5 Video element.
 			</video>
 				
 			<h2>Distance Transform</h2>
@@ -46,15 +44,11 @@
 			<h3>Route 1</h3>
 			<video controls="controls">
 				<source src="potential-nav1.MOV" type="video/mp4">
-				<source src="potential-nav1.MOV" type="video/ogg">
-				Your browser does not support the HTML5 Video element.
 			</video>
 
 			<h3>Route 2</h3>
 			<video controls="controls">
 				<source src="potential-nav2.MOV" type="video/mp4">
-				<source src="potential-nav2.MOV" type="video/ogg">
-				Your browser does not support the HTML5 Video element.
 			</video>
 
 			<p>In the videos above, the Manhatten distance transform was used.</p>
@@ -62,13 +56,13 @@
 			<h2>Discussion</h2>
 				
 			<h3>Strengths</h3>
-			<p>Lorem Ispum</p>
+			<p>The main strength of the potential field navigation approach is its simplicity. Using both the potential field as well as repulsion field from the walls using distance transform allows a relatively simple addition to give the robot basic wall avoiding abilities.</p>
 				
 			<h3>Limitations</h3>
-			<p>Lorem Ipsum</p>
+			<p>One limitation of the current potential field navigation algorithm is that the MBot-Omni cannot navigate through complex fields due to local minimum often being found as a path instead.</p>
 				
 			<h3>Future Improvements</h3>
-			<p>Lorem Ipsum</p>
+			<p>One future improvement that could be made is to normalize the repulsive field to avoid local minima. Another improvement that needs to be made is optimizing the distance transform and potential field algorithms to make them run faster on the Raspberry Pi's limited hardware.</p>
 		</div>
 	</body>
 </html>
