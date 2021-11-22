@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<title>Rob 102 - Project 3 Website - Team 2</title>
+		<link rel="stylesheet" href="master.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<nav class="nav-links">
+			<a href="https://robotics102.github.io/">Rob 102</a>
+			<a href="https://robotics102.github.io/projects/a3.html">Project 3 Desc.</a>
+			<a href="index.html">Project 2 Page</a>
+			<a href="https://github.com/robotics102/autonomous-navigation-p2-um-team-2">Repository</a>
+		</nav>
+		
+		
+		<div class="body-text">
+			<h1>Project 3: Path Planning</h1>
+			
+			<p>Team 2: Tristan Goodell & Dominik Dulak</p>
+				
+			<h2>BFS on the Robot</h2>
+			<video controls="controls">
+				<source src="bfs-robot.mp4" type="video/mp4">
+			</video>
+				
+			<h2>BFS on the Webapp</h2>
+
+			<h3>Maze 1</h3>
+			<div style="text-align:center;"><img src="bfs-map1.PNG"></div>
+
+			<h3>Maze 2</h3>
+			<div style="text-align:center;"><img src="euclid-dt-2.PNG"></div>
+
+			<h3>Maze 3</h3>
+			<div style="text-align:center;"><img src="bfs-map3.PNG"></div>
+
+			<h3>Maze 4</h3>
+			<div style="text-align:center;"><img src="bfs-map4.PNG"></div>
+			
+			<h2>Discussion</h2>
+				
+			<h3>Strengths</h3>
+			<p>The main strengths of BFS are that it is simple to implement and it finds the shortest path.</p>
+			
+			<h3>Limitations</h3>
+			<p>Since BFS does not use a heuristic like A*, the algorithm explores cells that are probably not in the most optimal path. Consequently, it is computationally expensive. </p>	
+			
+			<h3>BFS and the Shortest Path</h3>
+			<p>BFS will always find the shortest path from the start to the goal if a path exists. However, it may take longer to do so compared to other pathfinding algortihms. </p>
+				
+			<h3>Future Improvements</h3>
+			<p>In the future, implementing a heuristic that ranks future steps to avoid wasting compute time on suboptimal paths.</p>
+			
+		</div>
+	</body>
+</html>
